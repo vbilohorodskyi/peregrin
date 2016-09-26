@@ -30,9 +30,13 @@ peregrin.py -- main script to run tests.
 3. Installing selenium:
 Execute following commands:
 pip install selenium | On linux
+
 OR
+
 sudo easy_install selenium | On MacOS X
+
 OR
+
 C:\Python35\Scripts\pip.exe install selenium | On Windows Systems
 
 4. Now you will need to install chromedriver, because it is not included to default webdriver configuration:
