@@ -46,8 +46,8 @@ Save it into your hard drive and run specified executable
 
 =====================EXECUTION:============================
 
-change path to your peregrin folder
-type python peregrin.py
+1. change path to your peregrin folder
+2. type python peregrin.py
 
 And that's it.
 
