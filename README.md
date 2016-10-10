@@ -8,7 +8,7 @@ Peregrin architecture consists of 2 files:
 
 map.txt - file where you can specify pages to test
 ! ALL URLs from the new line, no EOF-EOL symbols,
-! ALL URLs must be specified with excact protocol, as it is done in URL string of browser
+! ALL URLs must be specified with exact protocol, as it is done in URL string of browser
 
 peregrin.py -- main script to run tests.
 
