@@ -4,14 +4,15 @@ Peregrin is a light-weight performance tool for frontend QA to measure page load
 
 ====================DESCRIPTION:============================
 
-Peregrin architecture consists of 3 files:
+Peregrin architecture consists of 2 files:
 
 map.txt - file where you can specify pages to test
 ! ALL URLs from the new line, no EOF-EOL symbols,
 ! ALL URLs must be specified with excact protocol, as it is done in URL string of browser
 
+peregrin.py -- main script to run tests.
 
-config.py - configuration and system constants, that can be changed with simple text editors:
+Shown below is a configuration section and system constants:
 
     MAP_FILE = 'map.txt' -- map file, 'map.txt' by default. If you want to specify some additional tests, pages can be
                             added to other file and you will need to specify it before running tests
@@ -19,7 +20,6 @@ config.py - configuration and system constants, that can be changed with simple 
     TRIES_COUNT = 5 -- integer number of iterations of performance measurement for each page, it's needed to make a
                         clear vision about average load time
 
-peregrin.py -- main script to run tests.
 
 =====================INSTALLATION:============================
 
